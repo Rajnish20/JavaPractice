@@ -24,7 +24,14 @@ public class LineComparisonProblem {
 		}
 		else
 		{
-			System.out.println("Lines are not Equal");
+			if(L1_Length > L2_Length)
+			{
+				System.out.println("Line 1 is Greater");
+			}
+			else
+			{
+				System.out.println("Line 2 is Greater");
+			}
 		}
 	}
 }
