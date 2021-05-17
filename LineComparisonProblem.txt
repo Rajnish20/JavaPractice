@@ -1,0 +1,8 @@
+package lcp;
+
+public class LineComparisonProblem {
+
+	public static void main(String[] args) {
+		System.out.println("Wecome To Line Comparison Problem");
+	}
+}
