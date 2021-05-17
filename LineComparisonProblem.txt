@@ -11,5 +11,20 @@ public class LineComparisonProblem {
 		
 		double L1_Length = Math.sqrt(Math.pow((L1_X2 - L1_X1), 2) + Math.pow((L1_Y2 - L1_Y1), 2) );
 		
+		int L2_X1  = 3;
+		int L2_Y1 = 6;
+		int L2_X2 = 9;
+		int L2_Y2 = 11;
+		
+		double L2_Length = Math.sqrt(Math.pow((L2_X2 - L2_X1), 2) + Math.pow((L2_Y2 - L2_Y1), 2) );
+		
+		if(L1_Length == L2_Length)
+		{
+			System.out.println("Lines are Equal");
+		}
+		else
+		{
+			System.out.println("Lines are not Equal");
+		}
 	}
 }
