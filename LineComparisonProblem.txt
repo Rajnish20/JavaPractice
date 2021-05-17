@@ -4,5 +4,12 @@ public class LineComparisonProblem {
 
 	public static void main(String[] args) {
 		System.out.println("Wecome To Line Comparison Problem");
+		int L1_X1 = 4;
+		int L1_Y1 = 5;
+		int L1_X2 = 8;
+		int L1_Y2 = 10;
+		
+		double L1_Length = Math.sqrt(Math.pow((L1_X2 - L1_X1), 2) + Math.pow((L1_Y2 - L1_Y1), 2) );
+		
 	}
 }
